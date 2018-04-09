@@ -11,7 +11,7 @@ namespace MaintenanceService.Controllers
     public class MainController : Controller
     {
         /// <summary>
-        /// Maintenance page
+        /// Maintenance page 
         /// </summary>
         public ActionResult Index(int clientId)
         {
