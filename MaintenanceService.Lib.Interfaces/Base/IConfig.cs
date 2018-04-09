@@ -1,6 +1,6 @@
 ﻿using System.Configuration;
 
-namespace MaintenanceService.Lib.Interfaces
+namespace MaintenanceService.Lib.Interfaces.Base
 {
     /// <summary>
     /// This interface represents the interface for a config manager.
