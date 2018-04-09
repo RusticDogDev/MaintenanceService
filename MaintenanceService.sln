@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaintenanceService", "MaintenanceService\MaintenanceService.csproj", "{5393EB3E-C934-438B-AC6F-99A005F9CFD9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaintenanceService.WebApp.View", "MaintenanceService\MaintenanceService.WebApp.View.csproj", "{5393EB3E-C934-438B-AC6F-99A005F9CFD9}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4AE16F14-13F8-44A7-89F7-E4F2F78B7F7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaintenanceService.Lib.Interfaces", "..\MaintenanceService.Lib.Interfaces\MaintenanceService.Lib.Interfaces.csproj", "{5BB3F425-5E89-4102-88CD-4F500A450B2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainenanceService.Lib.Models", "MainenanceService.Lib.Models\MainenanceService.Lib.Models.csproj", "{803AB7D9-ECC1-4F9C-A7F4-A5ED7FBE647E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaintenanceService.Lib.ViewModels", "MaintenanceService.Lib.ViewModels\MaintenanceService.Lib.ViewModels.csproj", "{4FA05DD2-C3CC-4601-A73A-3CC4F4311358}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaintenanceService.Lib.Repositories", "MaintenanceService.Lib.Repositories\MaintenanceService.Lib.Repositories.csproj", "{C65D3E76-159A-4FD5-9AE7-89E9B9D94182}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +23,22 @@ Global
 		{5393EB3E-C934-438B-AC6F-99A005F9CFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5393EB3E-C934-438B-AC6F-99A005F9CFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5393EB3E-C934-438B-AC6F-99A005F9CFD9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4AE16F14-13F8-44A7-89F7-E4F2F78B7F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4AE16F14-13F8-44A7-89F7-E4F2F78B7F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4AE16F14-13F8-44A7-89F7-E4F2F78B7F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4AE16F14-13F8-44A7-89F7-E4F2F78B7F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB3F425-5E89-4102-88CD-4F500A450B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB3F425-5E89-4102-88CD-4F500A450B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB3F425-5E89-4102-88CD-4F500A450B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB3F425-5E89-4102-88CD-4F500A450B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{803AB7D9-ECC1-4F9C-A7F4-A5ED7FBE647E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{803AB7D9-ECC1-4F9C-A7F4-A5ED7FBE647E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{803AB7D9-ECC1-4F9C-A7F4-A5ED7FBE647E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{803AB7D9-ECC1-4F9C-A7F4-A5ED7FBE647E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA05DD2-C3CC-4601-A73A-3CC4F4311358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA05DD2-C3CC-4601-A73A-3CC4F4311358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA05DD2-C3CC-4601-A73A-3CC4F4311358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA05DD2-C3CC-4601-A73A-3CC4F4311358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C65D3E76-159A-4FD5-9AE7-89E9B9D94182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65D3E76-159A-4FD5-9AE7-89E9B9D94182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65D3E76-159A-4FD5-9AE7-89E9B9D94182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65D3E76-159A-4FD5-9AE7-89E9B9D94182}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
